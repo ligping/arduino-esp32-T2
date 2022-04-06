@@ -1,0 +1,77 @@
+menu.UploadSpeed=Upload Speed
+menu.CDCOnBoot=USB CDC On Boot
+menu.MSCOnBoot=USB Firmware MSC On Boot
+menu.DFUOnBoot=USB DFU On Boot
+menu.UploadMode=Upload Mode
+menu.CPUFreq=CPU Frequency
+menu.FlashFreq=Flash Frequency
+menu.FlashMode=Flash Mode
+menu.FlashSize=Flash Size
+menu.PartitionScheme=Partition Scheme
+menu.DebugLevel=Core Debug Level
+menu.PSRAM=PSRAM
+menu.Revision=Board Revision
+menu.LORAWAN_REGION=LoRaWan Region
+menu.LoRaWanDebugLevel=LoRaWan Debug Level
+menu.LoopCore=Arduino Runs On
+menu.EventsCore=Events Run On
+
+##############################################################
+### DO NOT PUT BOARDS ABOVE THE OFFICIAL ESPRESSIF BOARDS! ###
+##############################################################
+
+ticos-kit-aksu.name=Ticos Kit T2
+
+ticos-kit-aksu.upload.tool=esptool_py
+ticos-kit-aksu.upload.maximum_size=1310720
+ticos-kit-aksu.upload.maximum_data_size=327680
+ticos-kit-aksu.upload.flags=
+ticos-kit-aksu.upload.extra_flags=
+
+ticos-kit-aksu.serial.disableDTR=true
+ticos-kit-aksu.serial.disableRTS=true
+
+ticos-kit-aksu.build.tarch=xtensa
+ticos-kit-aksu.build.bootloader_addr=0x1000
+ticos-kit-aksu.build.target=esp32
+ticos-kit-aksu.build.mcu=esp32
+ticos-kit-aksu.build.core=esp32
+ticos-kit-aksu.build.variant=ticos-kit-T2
+ticos-kit-aksu.build.board=ticos-kit-T2
+ticos-kit-aksu.build.f_cpu=160000000L
+ticos-kit-aksu.build.boot=dio
+ticos-kit-aksu.build.partitions=minimal
+ticos-kit-aksu.build.flash_mode=dio
+ticos-kit-aksu.build.flash_size=4m
+ticos-kit-aksu.build.flash_freq=40m
+ticos-kit-aksu.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw
+
+ticos-kit-aksu.menu.UploadSpeed.921600=921600
+ticos-kit-aksu.menu.UploadSpeed.921600.upload.speed=921600
+ticos-kit-aksu.menu.UploadSpeed.115200=115200
+ticos-kit-aksu.menu.UploadSpeed.115200.upload.speed=115200
+ticos-kit-aksu.menu.UploadSpeed.256000.windows=256000
+ticos-kit-aksu.menu.UploadSpeed.256000.upload.speed=256000
+ticos-kit-aksu.menu.UploadSpeed.230400.windows.upload.speed=256000
+ticos-kit-aksu.menu.UploadSpeed.230400=230400
+ticos-kit-aksu.menu.UploadSpeed.230400.upload.speed=230400
+ticos-kit-aksu.menu.UploadSpeed.460800.linux=460800
+ticos-kit-aksu.menu.UploadSpeed.460800.macosx=460800
+ticos-kit-aksu.menu.UploadSpeed.460800.upload.speed=460800
+ticos-kit-aksu.menu.UploadSpeed.512000.windows=512000
+ticos-kit-aksu.menu.UploadSpeed.512000.upload.speed=512000
+
+ticos-kit-aksu.menu.DebugLevel.none=None
+ticos-kit-aksu.menu.DebugLevel.none.build.code_debug=0
+ticos-kit-aksu.menu.DebugLevel.error=Error
+ticos-kit-aksu.menu.DebugLevel.error.build.code_debug=1
+ticos-kit-aksu.menu.DebugLevel.warn=Warn
+ticos-kit-aksu.menu.DebugLevel.warn.build.code_debug=2
+ticos-kit-aksu.menu.DebugLevel.info=Info
+ticos-kit-aksu.menu.DebugLevel.info.build.code_debug=3
+ticos-kit-aksu.menu.DebugLevel.debug=Debug
+ticos-kit-aksu.menu.DebugLevel.debug.build.code_debug=4
+ticos-kit-aksu.menu.DebugLevel.verbose=Verbose
+ticos-kit-aksu.menu.DebugLevel.verbose.build.code_debug=5
+
+##############################################################
